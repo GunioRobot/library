@@ -64,7 +64,7 @@
 1.2.0 (2010-05-18)
 ----
 - The directory structure has changed for some packages.
-- A few classes have been renamed based on the above changes. People new to Spoon should have an easier time, trying 
+- A few classes have been renamed based on the above changes. People new to Spoon should have an easier time, trying
   to find the location of the subpackages.
 - Spoon::setObjectReference now also returns the instance you provide it.
 - When an exception is thrown, we try to add the last PHP error message if it's available.
@@ -136,7 +136,7 @@
 - Added Dave to the main-authors (Welcome Dave!)
 - Fixed some PHP-doc
 - Fixed a bug in SpoonTemplateModifiers::createHTMLLinks(), it should handle urls correct from now on
-- Added an extra element in the return of SpoonFile::getInfo(). The element is called human_readable_size and contains the size of 
+- Added an extra element in the return of SpoonFile::getInfo(). The element is called human_readable_size and contains the size of
   the file in a human readable way.
 - $_FILES is now included in the variables-section of Exceptions.
 - Added SpoonTemplate::getAssignedValue to fetch already assigned values.
@@ -161,7 +161,7 @@
 - SpoonThumbnail: changed the name of checkFileType to isSupportedFileType
 - There are no final classes anymore, everthing should be extendable
 - Filesystem: created an alias for SpoonDirectory::move in SpoonFile
-- Filesystem: SpoonDirectory move hasn't a strict-argument anymore and will trigger exceptions on failure. If 
+- Filesystem: SpoonDirectory move hasn't a strict-argument anymore and will trigger exceptions on failure. If
   the destinationpath doesn't exist it will be created
 - Added a new Package: SpoonRESTClient, be carefull it is not backwards compatible with the version pre 1.1.x
 - SpoonTemplateModifiers::truncate(HTML) were removed for now, they need to be reworked.
@@ -219,7 +219,7 @@
 
 
 1.0.2 (2009-01-25)
----- 
+----
 - Exceptions now include the hostname, if available
 - Session variables via SpoonSession are no longer converted to a string
 - Template includes now work as initially intended (thx to Pieter Meyvaert)
